@@ -13,5 +13,5 @@ end
 
 board =[" "," "," "," "," "," "," "," "," ",]
 def move(board, input, value = "X")
-  board["#{input}"] = value
+  board[input] = value
 end
