@@ -15,5 +15,5 @@ def turn(board)
   input = gets.strip
   if valid_move?(board, input)
     move(board, input, current_player(board))
-  end
+end
   display_board(board)
