@@ -6,6 +6,6 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 index = gets.strip
 input_to_index(index)
-move(board, index, "X")
+move(board, index, value)
 
 # Code your CLI Here
