@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
 require_relative '../lib/move.rb'
-
+puts "Where on the board would you like to move? (Int 1-9)"
+user_input = gets.strip
+move(user_input)
 # Code your CLI Here
